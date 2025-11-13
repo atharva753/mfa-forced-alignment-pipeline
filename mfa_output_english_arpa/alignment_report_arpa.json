@@ -1,0 +1,38 @@
+{
+  "timestamp": "2025-11-10T17:07:13.784551",
+  "corpus_path": "C:\\Users\\athar\\OneDrive\\Documents\\mfa_corpus",
+  "output_path": "C:\\Users\\athar\\OneDrive\\Documents\\mfa_output",
+  "dictionary": "english_us_arpa",
+  "acoustic_model": "english_us_arpa",
+  "textgrids": [
+    {
+      "name": "F2BJRLP1.TextGrid",
+      "size_kb": 38.25
+    },
+    {
+      "name": "F2BJRLP2.TextGrid",
+      "size_kb": 42.55
+    },
+    {
+      "name": "F2BJRLP3.TextGrid",
+      "size_kb": 48.59
+    },
+    {
+      "name": "ISLE_SESS0131_BLOCKD02_01_sprt1.TextGrid",
+      "size_kb": 2.68
+    },
+    {
+      "name": "ISLE_SESS0131_BLOCKD02_02_sprt1.TextGrid",
+      "size_kb": 2.58
+    },
+    {
+      "name": "ISLE_SESS0131_BLOCKD02_03_sprt1.TextGrid",
+      "size_kb": 2.47
+    }
+  ],
+  "corpus_stats": {
+    "wav_files": 6,
+    "txt_files": 6,
+    "textgrids_generated": 6
+  }
+}

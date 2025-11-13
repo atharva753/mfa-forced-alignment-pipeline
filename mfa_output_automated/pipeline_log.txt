@@ -1,0 +1,31 @@
+[2025-11-10 16:53:31] 
+============================================================
+[2025-11-10 16:53:31] STARTING FULL MFA PIPELINE
+[2025-11-10 16:53:31] ============================================================
+[2025-11-10 16:53:31] 
+============================================================
+[2025-11-10 16:53:31] STEP 1: VALIDATING CORPUS
+[2025-11-10 16:53:31] ============================================================
+[2025-11-10 16:53:31] STEP: Validating corpus against dictionary
+[2025-11-10 16:53:31] Running command: mfa validate C:\Users\athar\OneDrive\Documents\mfa_corpus english_us_arpa
+[2025-11-10 16:53:37] ✗ FAILED: Validating corpus against dictionary
+[2025-11-10 16:53:37] Error: Traceback (most recent call last):
+  File "C:\Users\athar\AppData\Local\Programs\Python\Python310\lib\runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\athar\AppData\Local\Programs\Python\Python310\lib\runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\athar\AppData\Local\Programs\Python\Python310\Scripts\mfa.exe\__main__.py", line 2, in <module>
+  File "C:\Users\athar\AppData\Local\Programs\Python\Python310\lib\site-packages\montreal_forced_aligner\__init__.py", line 4, in <module>
+    import montreal_forced_aligner.acoustic_modeling as acoustic_modeling
+  File "C:\Users\athar\AppData\Local\Programs\Python\Python310\lib\site-packages\montreal_forced_aligner\acoustic_modeling\__init__.py", line 7, in <module>
+    from montreal_forced_aligner.acoustic_modeling.base import AcousticModelTrainingMixin  # noqa
+  File "C:\Users\athar\AppData\Local\Programs\Python\Python310\lib\site-packages\montreal_forced_aligner\acoustic_modeling\base.py", line 19, in <module>
+    from montreal_forced_aligner.abc import MfaWorker, ModelExporterMixin, TrainerMixin
+  File "C:\Users\athar\AppData\Local\Programs\Python\Python310\lib\site-packages\montreal_forced_aligner\abc.py", line 33, in <module>
+    from montreal_forced_aligner.config import GLOBAL_CONFIG
+  File "C:\Users\athar\AppData\Local\Programs\Python\Python310\lib\site-packages\montreal_forced_aligner\config.py", line 259, in <module>
+    MEMORY = joblib.Memory(
+TypeError: Memory.__init__() got an unexpected keyword argument 'bytes_limit'
+
+[2025-11-10 16:53:38] 
+✗ Pipeline FAILED at validation step
