@@ -1,4 +1,4 @@
-<img width="1424" height="732" alt="image" src="https://github.com/user-attachments/assets/9d8dca12-7f9d-42ab-8720-d698fda4ed74" /># Montreal Forced Aligner (MFA) Pipeline for Speech Analysis
+# Montreal Forced Aligner (MFA) Pipeline for Speech Analysis
 
 [![Python](https://img.shields.io/badge/Python-3.11-blue.svg)](https://www.python.org/)
 [![MFA](https://img.shields.io/badge/MFA-3.3.8-green.svg)](https://montreal-forced-aligner.readthedocs.io/)
